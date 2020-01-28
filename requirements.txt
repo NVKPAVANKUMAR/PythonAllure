@@ -1,0 +1,14 @@
+pytest
+beautifulsoup4==4.8.0
+certifi==2019.11.28
+chardet==3.0.4
+html-testRunner==1.2.1
+idna==2.8
+Jinja2==2.10.3
+jsonparser==1.0
+lxml==4.4.1
+MarkupSafe==1.1.1
+requests==2.22.0
+selenium==3.141.0
+soupsieve==1.9.4
+urllib3==1.25.3

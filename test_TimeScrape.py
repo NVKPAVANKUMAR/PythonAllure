@@ -1,5 +1,5 @@
 import unittest
-
+import HtmlTestRunner
 from bs4 import BeautifulSoup
 from requests import get
 
@@ -14,4 +14,4 @@ class TestRunner(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(verbosity=2)
+    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='./reports'))

@@ -38,5 +38,26 @@ def test_skip_by_triggered_condition():
 
 
 @pytest.mark.parametrize("test_input,expected", [("3+5", 8), ("2+4", 6), ("6*9", 42)])
+@pytest.mark.others
 def test_eval(test_input, expected):
     assert eval(test_input) == expected
+
+
+@pytest.fixture
+def input_value():
+    input = 39
+    return input
+
+
+def test_divisible_by_3(input_value):
+    assert input_value % 3 == 0
+
+
+def test_divisible_by_6(input_value):
+    assert input_value % 6 == 0
+
+
+@pytest.mark.parametrize("num,result", [(1, 11), (2, 22), (3, 33)])
+@pytest.mark.multest
+def test_multiplication_11(num, result):
+    assert 11 * num == result

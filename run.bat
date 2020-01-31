@@ -1,2 +1,2 @@
 cd C:\Users\npavankumar\PycharmProjects\WebScraping
-python MyntraPriceScrape.py
+python test_MyntraPriceScrape.py

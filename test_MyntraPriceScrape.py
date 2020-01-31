@@ -23,4 +23,4 @@ class ScrapeMyntraPriceData(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    unittest.main(testRunner=HtmlTestRunner.HTMLTestRunner(output='test-reports'))
+    unittest.main(verbosity=2)

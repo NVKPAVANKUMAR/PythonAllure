@@ -4,7 +4,7 @@ certifi==2019.11.28
 chardet==3.0.4
 html-testRunner==1.2.1
 idna==2.8
-Jinja2==2.10.3
+Jinja2==2.11.3
 jsonparser==1.0
 lxml==4.6.3
 MarkupSafe==1.1.1
